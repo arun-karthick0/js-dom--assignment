@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.draggable {
+  position: absolute;
+  width: 150px;
+  border: 1px solid black;
+  height: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(212, 206, 206);
+  cursor: move;
+}

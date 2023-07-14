@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(18, 172, 38);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+  color: beige;
+  margin-bottom: 100px;
+}
+
+.container .timer {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+#timer {
+  color: red;
+  font-size: 3rem;
+}

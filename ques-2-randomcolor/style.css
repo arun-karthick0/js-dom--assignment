@@ -1,0 +1,15 @@
+
+.container {
+  display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  background-color: beige;
+}
